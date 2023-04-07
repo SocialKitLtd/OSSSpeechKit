@@ -166,7 +166,7 @@ public class OSSSpeech: NSObject {
     // MARK: - Private Properties
 
     /// An object that produces synthesized speech from text utterances and provides controls for monitoring or controlling ongoing speech.
-    private var speechSynthesizer: AVSpeechSynthesizer!
+    public var speechSynthesizer: AVSpeechSynthesizer!
 
     // MARK: - Variables
 
